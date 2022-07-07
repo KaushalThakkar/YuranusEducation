@@ -1,0 +1,158 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 21/04/2020 11:53
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff2") format("woff2"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-miscellaneous:before { content: "\f100"; }
+.flaticon-passport:before { content: "\f101"; }
+.flaticon-passport-1:before { content: "\f102"; }
+.flaticon-passport-2:before { content: "\f103"; }
+.flaticon-call:before { content: "\f104"; }
+.flaticon-passport-3:before { content: "\f105"; }
+.flaticon-visa:before { content: "\f106"; }
+.flaticon-passport-4:before { content: "\f107"; }
+.flaticon-passport-5:before { content: "\f108"; }
+.flaticon-passport-6:before { content: "\f109"; }
+.flaticon-passport-7:before { content: "\f10a"; }
+.flaticon-departure:before { content: "\f10b"; }
+.flaticon-airplane:before { content: "\f10c"; }
+.flaticon-travel:before { content: "\f10d"; }
+.flaticon-departures:before { content: "\f10e"; }
+.flaticon-plane:before { content: "\f10f"; }
+.flaticon-plane-1:before { content: "\f110"; }
+.flaticon-insurance:before { content: "\f111"; }
+.flaticon-family:before { content: "\f112"; }
+.flaticon-family-1:before { content: "\f113"; }
+.flaticon-graduation-hat:before { content: "\f114"; }
+.flaticon-cap:before { content: "\f115"; }
+.flaticon-reading:before { content: "\f116"; }
+.flaticon-graduation-hat-1:before { content: "\f117"; }
+.flaticon-boarding-pass:before { content: "\f118"; }
+.flaticon-boarding-pass-1:before { content: "\f119"; }
+.flaticon-identification:before { content: "\f11a"; }
+.flaticon-plane-ticket:before { content: "\f11b"; }
+.flaticon-plane-ticket-1:before { content: "\f11c"; }
+.flaticon-plane-tickets:before { content: "\f11d"; }
+.flaticon-certificate:before { content: "\f11e"; }
+.flaticon-circular-label-with-certified-stamp:before { content: "\f11f"; }
+.flaticon-certificate-1:before { content: "\f120"; }
+.flaticon-policy:before { content: "\f121"; }
+.flaticon-contract:before { content: "\f122"; }
+.flaticon-book:before { content: "\f123"; }
+.flaticon-book-1:before { content: "\f124"; }
+.flaticon-open-book:before { content: "\f125"; }
+.flaticon-email:before { content: "\f126"; }
+.flaticon-email-1:before { content: "\f127"; }
+.flaticon-address:before { content: "\f128"; }
+.flaticon-location:before { content: "\f129"; }
+.flaticon-placeholder:before { content: "\f12a"; }
+.flaticon-global:before { content: "\f12b"; }
+.flaticon-play-button:before { content: "\f12c"; }
+.flaticon-passport-8:before { content: "\f12d"; }
+.flaticon-passport-9:before { content: "\f12e"; }
+.flaticon-passport-10:before { content: "\f12f"; }
+.flaticon-passport-11:before { content: "\f130"; }
+.flaticon-boarding-pass-2:before { content: "\f131"; }
+.flaticon-passport-12:before { content: "\f132"; }
+.flaticon-visa-1:before { content: "\f133"; }
+.flaticon-passport-13:before { content: "\f134"; }
+.flaticon-passport-14:before { content: "\f135"; }
+.flaticon-bussiness-man:before { content: "\f136"; }
+.flaticon-meeting:before { content: "\f137"; }
+.flaticon-interview:before { content: "\f138"; }
+.flaticon-support:before { content: "\f139"; }
+.flaticon-refugee:before { content: "\f13a"; }
+    
+    $font-Flaticon-miscellaneous: "\f100";
+    $font-Flaticon-passport: "\f101";
+    $font-Flaticon-passport-1: "\f102";
+    $font-Flaticon-passport-2: "\f103";
+    $font-Flaticon-call: "\f104";
+    $font-Flaticon-passport-3: "\f105";
+    $font-Flaticon-visa: "\f106";
+    $font-Flaticon-passport-4: "\f107";
+    $font-Flaticon-passport-5: "\f108";
+    $font-Flaticon-passport-6: "\f109";
+    $font-Flaticon-passport-7: "\f10a";
+    $font-Flaticon-departure: "\f10b";
+    $font-Flaticon-airplane: "\f10c";
+    $font-Flaticon-travel: "\f10d";
+    $font-Flaticon-departures: "\f10e";
+    $font-Flaticon-plane: "\f10f";
+    $font-Flaticon-plane-1: "\f110";
+    $font-Flaticon-insurance: "\f111";
+    $font-Flaticon-family: "\f112";
+    $font-Flaticon-family-1: "\f113";
+    $font-Flaticon-graduation-hat: "\f114";
+    $font-Flaticon-cap: "\f115";
+    $font-Flaticon-reading: "\f116";
+    $font-Flaticon-graduation-hat-1: "\f117";
+    $font-Flaticon-boarding-pass: "\f118";
+    $font-Flaticon-boarding-pass-1: "\f119";
+    $font-Flaticon-identification: "\f11a";
+    $font-Flaticon-plane-ticket: "\f11b";
+    $font-Flaticon-plane-ticket-1: "\f11c";
+    $font-Flaticon-plane-tickets: "\f11d";
+    $font-Flaticon-certificate: "\f11e";
+    $font-Flaticon-circular-label-with-certified-stamp: "\f11f";
+    $font-Flaticon-certificate-1: "\f120";
+    $font-Flaticon-policy: "\f121";
+    $font-Flaticon-contract: "\f122";
+    $font-Flaticon-book: "\f123";
+    $font-Flaticon-book-1: "\f124";
+    $font-Flaticon-open-book: "\f125";
+    $font-Flaticon-email: "\f126";
+    $font-Flaticon-email-1: "\f127";
+    $font-Flaticon-address: "\f128";
+    $font-Flaticon-location: "\f129";
+    $font-Flaticon-placeholder: "\f12a";
+    $font-Flaticon-global: "\f12b";
+    $font-Flaticon-play-button: "\f12c";
+    $font-Flaticon-passport-8: "\f12d";
+    $font-Flaticon-passport-9: "\f12e";
+    $font-Flaticon-passport-10: "\f12f";
+    $font-Flaticon-passport-11: "\f130";
+    $font-Flaticon-boarding-pass-2: "\f131";
+    $font-Flaticon-passport-12: "\f132";
+    $font-Flaticon-visa-1: "\f133";
+    $font-Flaticon-passport-13: "\f134";
+    $font-Flaticon-passport-14: "\f135";
+    $font-Flaticon-bussiness-man: "\f136";
+    $font-Flaticon-meeting: "\f137";
+    $font-Flaticon-interview: "\f138";
+    $font-Flaticon-support: "\f139";
+    $font-Flaticon-refugee: "\f13a";

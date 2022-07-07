@@ -1,0 +1,161 @@
+<!-- site-header-menu -->
+<div id="site-header-menu" class="site-header-menu cmt-bgcolor-white">
+    <div class="site-header-menu-inner cmt-stickable-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--site-navigation -->
+                    <div class="site-navigation d-flex flex-row align-items-center justify-content-between">
+                        <!-- site-branding -->
+                        <div class="site-branding ">
+                            <a class="home-link" href="index.html" title="Tripzia" rel="home">
+                                <img id="logo-img" class="img-center" src="resources/images/logo.png"
+                                     alt="logo-img" style="max-height: 60px">
+                            </a>
+                        </div>
+
+                        <div class="d-flex flex-row">
+                            <div class="btn-show-menu-mobile menubar menubar--squeeze">
+                                <span class="menubar-box">
+                                    <span class="menubar-inner"></span>
+                                </span>
+                            </div>
+                            <!-- menu -->
+                            <nav class="main-menu menu-mobile" id="menu">
+                                <ul class="menu">
+
+                                    <li class="mega-menu-item">
+                                        <a href="index.html">Home</a>
+                                    </li>
+
+                                    <li class="mega-menu-item">
+                                        <a href="#" class="mega-menu-link">Examinations</a>
+                                        <ul class="mega-submenu">
+                                            <li><a href="IELTS_what.html">IELTS</a></li>
+                                            <li><a href="TOEFL.html">TOEFL</a></li>
+                                            <li><a href="PTE.html">PTE</a></li>
+                                            <li><a href="DUOLINGO.html">DUOLINGO</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="mega-menu-item">
+                                        <a href="#" class="mega-menu-link">Study Abroad</a>
+                                        <ul class="mega-submenu">
+                                            <li><a href="ausWhy.html">Australia</a></li>
+                                            <li><a href="canWhy.html">Canada</a></li>
+                                            <li><a href="ukWhyStudy.html">UK</a></li>
+                                            <li><a href="usaWhyStudy.html">USA</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="mega-menu-item">
+                                        <a href="#" class="mega-menu-link">Finance</a>
+                                        <ul class="mega-submenu">
+                                            <li><a href="loans.html">Loans</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="mega-menu-item">
+                                        <a href="#" class="mega-menu-link">Documents</a>
+                                        <ul class="mega-submenu">
+                                            <li><a href="LOR.html">LOR</a></li>
+                                            <li><a href="SOP.html">SOP</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="mega-menu-item">
+                                        <a href="#" class="mega-menu-link">Resources</a>
+                                        <ul class="mega-submenu">
+                                            <li><a href="comingSoon.html">All Videos</a></li>
+                                            <li><a href="comingSoon.html">Presentations</a></li>
+                                            <li><a href="comingSoon.html">Blogs</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="mega-menu-item">
+                                        <a href="#" class="mega-menu-link">About</a>
+                                        <ul class="mega-submenu">
+                                            <li><a href="about-us.html">About us</a></li>
+                                            <li><a href="comingSoon.html">Work with us</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="mega-menu-item">
+                                        <a href="contactUs.html">Contact Us</a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div><!-- site-navigation end-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- site-header-menu end-->
+
+<script>
+    /*------------------------------------------------------------------------------*/
+    /* Menu
+    /*------------------------------------------------------------------------------*/
+
+    var menu = {
+        initialize: function() {
+            this.Menuhover();
+        },
+
+        Menuhover : function(){
+            var getNav = $("nav.main-menu"),
+                getWindow = $(window).width(),
+                getHeight = $(window).height(),
+                getIn = getNav.find("ul.menu").data("in"),
+                getOut = getNav.find("ul.menu").data("out");
+
+            if ( matchMedia( 'only screen and (max-width: 1200px)' ).matches ) {
+
+                // Enable click event
+                $("nav.main-menu ul.menu").each(function(){
+
+                    // Dropdown Fade Toggle
+                    $("a.mega-menu-link", this).on('click', function (e) {
+                        e.preventDefault();
+                        var t = $(this);
+                        t.toggleClass('active').next('ul').toggleClass('active');
+                    });
+
+                    // Megamenu style
+                    $(".megamenu-fw", this).each(function(){
+                        $(".col-menu", this).each(function(){
+                            $(".title", this).off("click");
+                            $(".title", this).on("click", function(){
+                                $(this).closest(".col-menu").find(".content").stop().toggleClass('active');
+                                $(this).closest(".col-menu").toggleClass("active");
+                                return false;
+                                e.preventDefault();
+
+                            });
+
+                        });
+                    });
+
+                });
+            }
+        },
+    };
+
+
+    $('.btn-show-menu-mobile').on('click', function(e){
+        $(this).toggleClass('is-active');
+        $('.menu-mobile').toggleClass('show');
+        return false;
+        e.preventDefault();
+    });
+
+    // Initialize
+    $(document).ready(function(){
+        menu.initialize();
+
+    });
+
+</script>
