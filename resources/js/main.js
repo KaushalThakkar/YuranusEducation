@@ -227,8 +227,8 @@
     $(".accordion").each(function(){
 
         var allPanels = $('.toggle').children(".toggle-content").hide();
-        $('.toggle').children(".toggle-content").eq(2).slideDown("easeOutExpo");
-        $('.toggle').children(".toggle-title").children("a").eq(2).addClass("active");
+        $('.toggle').children(".toggle-content").eq(0).slideDown("easeOutExpo");
+        $('.toggle').children(".toggle-title").children("a").eq(0).addClass("active");
 
         $('.toggle').children(".toggle-title").children("a").on('click', function(){       
             var current = $(this).parent().next(".toggle-content");

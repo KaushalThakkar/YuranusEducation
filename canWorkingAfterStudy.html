@@ -43,6 +43,18 @@
             list-style: none;
             position: relative;
         }
+        .featured-icon-box {
+            margin: 7px 0;
+        }
+
+        .featured-icon-box.icon-align-before-content.style1 .featured-icon .cmt-icon {
+            height: 25px;
+            width: 25px;
+        }
+
+        .featuredbox-number .cmt-num:before {
+            content: counter(featuredbox-number) " ";
+        }
     </style>
 </head>
 <body>
@@ -106,11 +118,7 @@
 
                     <div class="col-lg-8 content-area">
                         <div class="cmt-service-single-content-area">
-                            <div class="cmt-featured-wrapper mb-40 res-991-mb-20">
-                                <img class="img-fluid"
-                                     src="https://www.cymolthemes.com/html//tripzia/images/country/country-details_03.jpg"
-                                     alt="">
-                            </div>
+
                             <div class="cmt-service-description">
                                 <h4>Working after you complete your study program?</h4>
                             </div>
@@ -118,32 +126,42 @@
                             <div class="cmt-service-description">
                                 <p class="text-justify">
                                     Yes, you can work in Canada after you graduate. There are 3 ways to make this dream
-                                    a reality:
+                                    a reality :
                                 </p>
 
-                                <ul class="cmt-list cmt-list-style-icon cmt-list-icon-color-skincolor pt-5">
-                                    <li><i class="cmt-textcolor-skincolor fa fa-check-circle"></i><span
-                                            class="cmt-list-li-content">Post-graduation work permit</span>
-                                    </li>
-                                    <li><i class="cmt-textcolor-skincolor fa fa-check-circle"></i><span
-                                            class="cmt-list-li-content">Express Entry</span>
-                                    </li>
-                                    <li><i class="cmt-textcolor-skincolor fa fa-check-circle"></i><span
-                                            class="cmt-list-li-content">Provincial Nominee Program</span>
-                                    </li>
+                                <ul class="cmt-list cmt-list-style-icon cmt-list-icon-color-skincolor">
+                                    <div class="row">
+                                        <li class="ml-4"><i class="fa fa-check"></i>
+                                            <div class="cmt-list-li-content">
+                                                Post-graduation work permit
+                                            </div>
+                                        </li>
+
+                                        <li class="ml-4"><i class="fa fa-check"></i>
+                                            <div class="cmt-list-li-content">
+                                                Express Entry
+                                            </div>
+                                        </li>
+
+                                        <li class="ml-4"><i class="fa fa-check"></i>
+                                            <div class="cmt-list-li-content">
+                                                Provincial Nominee Program
+                                            </div>
+                                        </li>
+                                    </div>
                                 </ul>
                             </div>
 
                             <div class="cmt-service-description mt-4">
+                                <h4>Post-graduation work permit</h4>
                                 <div class="row">
                                     <div class="col-sm-5">
-                                        <div class="ttm_single_image-wrapper mt-20">
+                                        <div class="ttm_single_image-wrapper">
                                             <img alt="single_14" class="img-fluid"
                                                  src="https://www.cymolthemes.com/html//tripzia/images/single-img-14.jpg">
                                         </div>
                                     </div>
                                     <div class="col-sm-7">
-                                        <h5>Post-graduation work permit</h5>
                                         <p class="text-justify">
                                             This Government of Canada program allows students who have graduated from
                                             certain
@@ -158,37 +176,117 @@
                                         </p>
                                     </div>
                                 </div>
-                                <ul class="cmt-list cmt-list-style-icon cmt-list-icon-color-skincolor pt-5">
-                                    <li><i class="cmt-textcolor-skincolor fa fa-check-circle"></i><span
-                                            class="cmt-list-li-content">If your program was at least 8 months, but less than 2 years</span>
-                                    </li>
-                                    <li><i class="cmt-textcolor-skincolor fa fa-check-circle"></i><span
-                                            class="cmt-list-li-content">If your program was 2 years or more</span>
-                                    </li>
-                                    <li><i class="cmt-textcolor-skincolor fa fa-check-circle"></i><span
-                                            class="cmt-list-li-content">If you completed more than 1 program</span>
-                                    </li>
-                                </ul>
+
+                                <div class="featuredbox-number">
+                                    <!--featured-icon-box-->
+                                    <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1 p-0 border-0">
+                                        <div class="featured-icon">
+                                            <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-skincolor cmt-icon_element-size-xs cmt-icon_element-style-rounded">
+                                                <i class="cmt-num ti-info"></i>
+                                            </div>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-desc">
+                                                <p>If your program was at least 8 months, but less than 2 years</p>
+                                            </div>
+                                            <ul class="cmt-list cmt-list-style-icon cmt-list-icon-color-skincolor mt-2 ml-4">
+                                                <li>
+                                                    <i class="fa fa-minus"></i>
+                                                    <div class="cmt-list-li-content">
+                                                        you a PGWP that’s valid for up to the same length as your study
+                                                        program.
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-minus"></i>
+                                                    <div class="cmt-list-li-content">
+                                                        For example, if you completed a 9-month program, you get a work
+                                                        permit for up to 9 months.
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- featured-icon-box end-->
+
+                                    <!--featured-icon-box-->
+                                    <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1 p-0 border-0">
+                                        <div class="featured-icon">
+                                            <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-skincolor cmt-icon_element-size-xs cmt-icon_element-style-rounded">
+                                                <i class="cmt-num ti-info"></i>
+                                            </div>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-desc">
+                                                <p>If your program was 2 years or more</p>
+                                            </div>
+                                            <ul class="cmt-list cmt-list-style-icon cmt-list-icon-color-skincolor mt-2 ml-4">
+                                                <li>
+                                                    <i class="fa fa-minus"></i>
+                                                    <div class="cmt-list-li-content">
+                                                        you get a PGWP that’s valid for 3 years
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- featured-icon-box end-->
+
+                                    <!--featured-icon-box-->
+                                    <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1 p-0 border-0">
+                                        <div class="featured-icon">
+                                            <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-skincolor cmt-icon_element-size-xs cmt-icon_element-style-rounded">
+                                                <i class="cmt-num ti-info"></i>
+                                            </div>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-desc">
+                                                <p>If you completed more than 1 program</p>
+                                            </div>
+                                            <ul class="cmt-list cmt-list-style-icon cmt-list-icon-color-skincolor mt-2 ml-4">
+                                                <li>
+                                                    <i class="fa fa-minus"></i>
+                                                    <div class="cmt-list-li-content">
+                                                        You get a PGWP that combines the length of each program
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-minus"></i>
+                                                    <div class="cmt-list-li-content">
+                                                        Each of the programs you completed must be PGWP-eligible and at least 8 months in length
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-minus"></i>
+                                                    <div class="cmt-list-li-content">
+                                                        You can’t get a PGWP if you already had one after completing an earlier program of study.
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- featured-icon-box end-->
+                                </div>
                             </div>
 
                             <div class="cmt-service-description mt-4">
+                                <h4>Express Entry</h4>
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <h5>Express Entry</h5>
                                         <p class="text-justify">
                                             Express Entry is the first step for most people who wish to immigrate to
                                             Canada
                                             permanently as a skilled worker. After you have studied and worked in
                                             Canada,
-                                            complete <a
-                                                href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/works.html">an
+                                            complete <a class="btn-link"
+                                                        href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/works.html">an
                                             online profile</a> to see if you have the education, skills, work experience
                                             and language ability to be a candidate. The federal government invites top
                                             candidates to apply for permanent residence.
                                         </p>
                                         <p class="text-justify">
-                                            Learn more about <a
-                                                href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html">Express
+                                            Learn more about <a class="btn-link"
+                                                                href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html">Express
                                             Entry</a> and apply for your opportunity to stay in Canada.
                                         </p>
                                     </div>
@@ -198,12 +296,11 @@
                                                  src="https://www.cymolthemes.com/html//tripzia/images/single-img-14.jpg">
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
 
                             <div class="cmt-service-description">
-                                <h5>Provincial Nominee Program</h5>
+                                <h4>Provincial Nominee Program</h4>
                                 <p class="text-justify">
                                     Almost all of Canada’s provinces and territories can nominate people to immigrate to
                                     Canada.
@@ -216,8 +313,9 @@
                                 </p>
 
                                 <p class="text-justify">
-                                    Visit the <a
-                                        href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html" target="_blank">Provincial
+                                    Visit the <a class="btn-link"
+                                                 href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html"
+                                                 target="_blank">Provincial
                                     Nominee Program website</a> to learn more and to apply.
                                 </p>
                             </div>
