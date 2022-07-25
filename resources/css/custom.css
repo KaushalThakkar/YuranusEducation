@@ -68,6 +68,42 @@
     background: url('../images/country/aus/AUS 1920X390.jpg');
 }
 
+
+.can-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/country/can/CAN 1920X390.jpg');
+}
+
+
+.uk-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/country/uk/UK 1920X390.jpg');
+}
+
+
+.usa-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/country/usa/USA 1920X390.jpg');
+}
+
+
+.aboutus-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/About us 1920X390.jpg');
+}
+
+
+.contactus-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/Contact us 1920 X390.jpg');
+}
+
+
 .ielts-bg-header {
     background-repeat: no-repeat !important;
     background-size: cover !important;
