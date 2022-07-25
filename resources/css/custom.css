@@ -1,0 +1,75 @@
+.theme-dark-text {
+    color: #303841 !important;
+}
+
+.theme-dark-gry-text {
+    color: #3A4750 !important;
+}
+
+.theme-red-text {
+    color: #da1f26 !important;
+}
+
+.theme-yellow-text {
+    color: #F6C90E !important;
+}
+
+.theme-light-yellow-text {
+    color: #FFD369 !important;
+}
+
+.theme-white-text {
+    color: #EEEEEE !important;
+}
+
+.theme-dark-background {
+    background-color: #272121 !important;
+}
+
+.theme-dark-gry-background {
+    background-color: #3A4750 !important;
+}
+
+.theme-yellow-background {
+    background-color: #F6C90E !important;
+}
+
+.theme-light-yellow-background {
+    background-color: #FFD369 !important;
+}
+
+.theme-white-background {
+    background-color: #EEEEEE !important;
+}
+
+.bg-dark-color {
+    background: linear-gradient(310deg, #f6bd02, #fae78b) !important;
+}
+
+.bg-yellow-color {
+    background: linear-gradient(310deg, #F6C90E, #fae78b) !important;
+}
+
+.bg-light-color {
+    background: linear-gradient(310deg, #f6bd02, #fae78b) !important;
+}
+
+
+.bg-dark-img {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/testBg.jpg');
+    background-attachment: fixed !important;
+}
+
+.aus-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/country/aus/AUS 1920X390.jpg');
+}
+
+.ielts-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/EXAMINATION 1920X390.jpg');
+}

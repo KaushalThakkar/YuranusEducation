@@ -667,7 +667,7 @@ a:hover, .cmt-bgcolor-darkgrey a:hover, .section-title h5,
 
 
 {
-    color: #0067ed;
+    color: #F6C90E;
 }
 
 /** Skin-bg-color **/
@@ -722,7 +722,7 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date,
 .pagination-block .page-numbers.current,
 #totop.top-visible
 {
-    background-color: #0067ed; 
+    background-color: #F6C90E;
 }
 
 
@@ -738,7 +738,7 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date,
 :not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor a, :not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor i
 
 {
-    border-color: #0067ed;
+    border-color: #f6c90e;
 }
 .cmt-bgcolor-darkgrey .tooltip-top:before, .cmt-bgcolor-darkgrey .tooltip:before, 
 .cmt-bgcolor-grey .tooltip-top:before, .cmt-bgcolor-grey .tooltip:before,
@@ -890,7 +890,7 @@ nav.main-menu ul.menu li > ul.mega-submenu li a:hover, nav.main-menu ul.menu li 
 .cmt-toggle-title-bgcolor-darkgrey .toggle-title a ,
 .cmt-toggle-title-bgcolor-skincolor .toggle-title a ,
 .cmt-toggle-title-bgcolor-grey .toggle-title a.active,
-.page-title-heading h2,
+/*.page-title-heading h2,*/
 .featured-imagebox-services.style2 .bottom-footer a.cmt-btn i,
 .widget.widget-nav-menu ul li:hover a,
 .widget.widget-nav-menu ul li.active a,
@@ -908,8 +908,22 @@ nav.main-menu ul.menu li > ul.mega-submenu li a:hover, nav.main-menu ul.menu li 
 .cmt-blog-single .cmt-box-post-date,
 .pagination-block .page-numbers:hover,
 .pagination-block .page-numbers.current { 
-    color: #fff; 
+    color: #FFFFFF;
 }
+
+nav.main-menu ul.menu li > ul.mega-submenu li a:hover,
+nav.main-menu ul.menu li ul.mega-submenu li.active > a,
+.cmt-toggle-title-bgcolor-grey .toggle-title a.active,
+.widget.widget-nav-menu ul li:hover a,
+.widget.widget-nav-menu ul li.active a,
+.cmt-tabs.tabs-style-01 ul.tabs li.active a,
+.cmt-tabs.tabs-style-02 ul.tabs li.active,
+.cmt-tabs.tabs-style-02 ul.tabs li.active a,
+.cmt-tabs.tabs-style-02 ul.tabs li.active i,
+.page-title-heading h2,{
+    color: #2C061F;
+}
+
 .top_bar_contact_item,
 .cmt-bgcolor-skincolor .title-desc, .cmt-bgcolor-darkgrey .title-desc,
 .cmt-bgcolor-skincolor p, .cmt-bgcolor-darkgrey p,
@@ -1413,9 +1427,10 @@ ul.social-icons{
     position: relative;
     z-index: 1;
     background-color: #1f2437;
-    background-image: url(../images/footer-bg.png);
+    background-image: url(../images/testBg.jpg);
     background-position: center center;
-    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .footer .widget .widget-title { 
     font-size: 19PX;
@@ -1694,7 +1709,7 @@ ul.footer-nav-menu li:last-child:after{
     padding-right: 20px;
 }
 .breadcrumb-wrapper span:first-child a{
-    color: #fff;
+    color: #da1f26;
 }
 .breadcrumb-wrapper span:first-child:after{
     position: absolute;
@@ -1713,7 +1728,7 @@ ul.footer-nav-menu li:last-child:after{
     padding-right: 20px;
 }
 .breadcrumb-wrapper span:nth-child(2) a{
-    color: #fff;
+    color: #da1f26;
 }
 .breadcrumb-wrapper span:nth-child(2):after{
     position: absolute;
