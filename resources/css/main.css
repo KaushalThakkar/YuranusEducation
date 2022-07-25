@@ -723,6 +723,7 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date,
 #totop.top-visible
 {
     background-color: #F6C90E;
+    color: #2C061F;
 }
 
 
@@ -874,7 +875,7 @@ a.cmt-btn.cmt-btn-style-fill.cmt-btn-color-white:hover, a.cmt-btn.cmt-btn-style-
 .cmt-btn.cmt-btn-style-fill.cmt-btn-color-dark,
 .cmt-icon.cmt-icon_element-fill.cmt-icon_element-color-darkgrey i,
 .cmt-icon.cmt-icon_element-fill.cmt-icon_element-color-skincolor i,
-nav.main-menu ul.menu li > ul.mega-submenu li a:hover, nav.main-menu ul.menu li ul.mega-submenu li.active > a,
+/*nav.main-menu ul.menu li > ul.mega-submenu li a:hover, nav.main-menu ul.menu li ul.mega-submenu li.active > a,*/
 .cmt-bgcolor-skincolor .section-title h2.title,
 .cmt-bgcolor-darkgrey .section-title h2.title,
 .cmt-bgcolor-skincolor .section-title h2.title strong,
@@ -920,7 +921,7 @@ nav.main-menu ul.menu li ul.mega-submenu li.active > a,
 .cmt-tabs.tabs-style-02 ul.tabs li.active,
 .cmt-tabs.tabs-style-02 ul.tabs li.active a,
 .cmt-tabs.tabs-style-02 ul.tabs li.active i,
-.page-title-heading h2,{
+.page-title-heading h2{
     color: #2C061F;
 }
 
