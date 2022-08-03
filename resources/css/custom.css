@@ -107,5 +107,40 @@
 .ielts-bg-header {
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background: url('../images/EXAMINATION 1920X390.jpg');
+    background: url('../images/examination/IELTS/IELTS.jpg');
+}
+
+
+.duolingo-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/examination/DUOLINGO/DUOLINGO-1.jpg');
+}
+
+
+.toefl-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/examination/TOEFL/TOEFL.jpg');
+}
+
+
+.pte-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/examination/PTE/PTE.jpg');
+}
+
+
+.examination-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/examination/EXAMINATION 1920X390.jpg');
+}
+
+
+.lor-bg-header {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('../images/documents/LOR.jpg');
 }
