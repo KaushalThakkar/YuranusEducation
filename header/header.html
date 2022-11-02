@@ -72,11 +72,7 @@
                                         </ul>
                                     </li>
 
-                                    <li class="mega-menu-item">
-                                        <a href="#" class="mega-menu-link">About</a>
-
-                                            <li><a href="about-us.html">About us</a></li>
-                                    </li>
+                                    <li><a href="about-us.html">About us</a></li>
 
                                     <li class="mega-menu-item">
                                         <a href="contactUs.html">Contact Us</a>
@@ -99,21 +95,21 @@
     /*------------------------------------------------------------------------------*/
 
     var menu = {
-        initialize: function() {
+        initialize: function () {
             this.Menuhover();
         },
 
-        Menuhover : function(){
+        Menuhover: function () {
             var getNav = $("nav.main-menu"),
                 getWindow = $(window).width(),
                 getHeight = $(window).height(),
                 getIn = getNav.find("ul.menu").data("in"),
                 getOut = getNav.find("ul.menu").data("out");
 
-            if ( matchMedia( 'only screen and (max-width: 1200px)' ).matches ) {
+            if (matchMedia('only screen and (max-width: 1200px)').matches) {
 
                 // Enable click event
-                $("nav.main-menu ul.menu").each(function(){
+                $("nav.main-menu ul.menu").each(function () {
 
                     // Dropdown Fade Toggle
                     $("a.mega-menu-link", this).on('click', function (e) {
@@ -123,10 +119,10 @@
                     });
 
                     // Megamenu style
-                    $(".megamenu-fw", this).each(function(){
-                        $(".col-menu", this).each(function(){
+                    $(".megamenu-fw", this).each(function () {
+                        $(".col-menu", this).each(function () {
                             $(".title", this).off("click");
-                            $(".title", this).on("click", function(){
+                            $(".title", this).on("click", function () {
                                 $(this).closest(".col-menu").find(".content").stop().toggleClass('active');
                                 $(this).closest(".col-menu").toggleClass("active");
                                 return false;
@@ -143,7 +139,7 @@
     };
 
 
-    $('.btn-show-menu-mobile').on('click', function(e){
+    $('.btn-show-menu-mobile').on('click', function (e) {
         $(this).toggleClass('is-active');
         $('.menu-mobile').toggleClass('show');
         return false;
@@ -151,7 +147,7 @@
     });
 
     // Initialize
-    $(document).ready(function(){
+    $(document).ready(function () {
         menu.initialize();
 
     });
