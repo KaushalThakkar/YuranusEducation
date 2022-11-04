@@ -57,7 +57,9 @@
 /* ===============================================
     General
 ------------------------*/
-
+.text-center2{
+    color: #008801;
+}
 /** Variables **/
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
     display: block;
