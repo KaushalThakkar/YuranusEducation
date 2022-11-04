@@ -147,7 +147,7 @@
 .examination-bg-header {
     width: 100%;
     background-size: cover;
-    background: url('../images/examination/EXAMINATION 1920X390.jpg') center;
+    background: url('../images/examination/EXAMINATION 1920X390.jpg') center no-repeat;
     position: relative;
     z-index: 1;
 }
