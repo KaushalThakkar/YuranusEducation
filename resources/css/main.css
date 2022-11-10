@@ -1430,7 +1430,7 @@ ul.social-icons{
     position: relative;
     z-index: 1;
     background-color: #1f2437;
-    background-image: url(../images/testBg.jpg);
+    background-image: url(../images/footer/testBg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1668,7 +1668,7 @@ ul.footer-nav-menu li:last-child:after{
     Page-Title-Row
 ------------------------*/
 .cmt-page-title-row { 
-    background: url(../images/studyAbroad.jpg);
+    background: url(../images/studyAbroad/studyAbroad.jpg);
     width: 100%;
     background-size: cover;
     background-position: center;
