@@ -38,6 +38,47 @@
     <link rel="stylesheet" type="text/css" href="resources/css/responsive.css"/>
 
     <link rel="stylesheet" type="text/css" href="resources/css/custom.css"/>
+
+    <link href="resources/css/owl.carousel.min.css" rel="stylesheet" />
+
+    <style>
+        .carousel-wrap {
+            position: relative;
+        }
+
+        /* fix blank or flashing items on carousel */
+        .owl-carousel .item {
+            position: relative;
+            z-index: 100;
+            -webkit-backface-visibility: hidden;
+        }
+
+        /* end fix */
+        .owl-nav > div {
+            margin-top: -26px;
+            position: absolute;
+            top: 50%;
+            color: #cdcbcd;
+        }
+
+        .owl-nav i {
+            font-size: 32px;
+        }
+
+        .owl-nav .owl-prev {
+            left: 30px;
+        }
+
+        .owl-nav .owl-next {
+            right: 30px;
+        }
+        .owl-next, .owl-prev {
+            padding: 4px 15px;
+        }
+        .owl-next:hover, .owl-prev:hover{
+            background: rgba(0,0,0,0.9);
+        }
+    </style>
 </head>
 
 <body>
@@ -50,34 +91,32 @@
     <!--header end-->
 
     <!-- START homemainclassicslider REVOLUTION SLIDER 6.1.0 -->
-    <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery">
-        <rs-module id="rev_slider_1_1" data-version="6.1.0">
-            <rs-slides>
+    <div class="page-content page-container" id="page-content">
 
-                <rs-slide data-key="rs-1" data-title="Slide1" data-thumb="resources/images/home/HomePage-1.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:3dcurtain-vertical;sl:d;">
-                    <img src="resources/images/home/HomePage-1.jpg" title="slider-bg-image" width="1920" height="690" class="rev-slidebg" data-no-retina>
-                </rs-slide>
 
-                <rs-slide data-key="rs-2" data-title="Slide2" data-thumb="resources/images/home/HomePage-2.jpg" data-anim="ei:d;eo:d;s:2000ms;r:0;t:3dcurtain-horizontal;sl:d;">
-                    <img src="resources/images/home/HomePage-2.jpg" title="slider-bg-image" width="1920" height="690" class="rev-slidebg" data-no-retina>
-                </rs-slide>
+        <div class="carousel-wrap">
 
-                <rs-slide data-key="rs-3" data-title="Slide3" data-thumb="resources/images/home/HomePage-3.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:3dcurtain-vertical;sl:d;">
-                    <img src="resources/images/home/HomePage-3.jpg" title="slider-bg-image" width="1920" height="690" class="rev-slidebg" data-no-retina>
-                </rs-slide>
+            <div class="owl-carousel">
+                <div class="item">
+                    <img src="https://www.yuranuseducation.com/resources/images/home/HomePage-1.jpg" alt="image"/>
+                </div>
+                <div class="item">
+                    <img src="https://www.yuranuseducation.com/resources/images/home/HomePage-2.jpg" alt="image"/>
+                </div>
+                <div class="item">
+                    <img src="https://www.yuranuseducation.com/resources/images/home/HomePage-3.jpg" alt="image"/>
+                </div>
+                <div class="item">
+                    <img src="https://www.yuranuseducation.com/resources/images/home/HomePage-4.jpg" alt="image"/>
+                </div>
+                <div class="item">
+                    <img src="https://www.yuranuseducation.com/resources/images/home/HomePage-5.jpg" alt="image"/>
+                </div>
 
-                <rs-slide data-key="rs-4" data-title="Slide4" data-thumb="resources/images/home/HomePage-4.jpg" data-anim="ei:d;eo:d;s:2000ms;r:0;t:3dcurtain-horizontal;sl:d;">
-                    <img src="resources/images/home/HomePage-4.jpg" title="slider-bg-image" width="1920" height="690" class="rev-slidebg" data-no-retina>
-                </rs-slide>
+            </div>
+        </div>
 
-                <rs-slide data-key="rs-5" data-title="Slide5" data-thumb="resources/images/home/HomePage-5.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:3dcurtain-vertical;sl:d;">
-                    <img src="resources/images/home/HomePage-5.jpg" title="slider-bg-image" width="1920" height="690" class="rev-slidebg" data-no-retina>
-                </rs-slide>
-
-            </rs-slides>
-            <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
-        </rs-module>
-    </rs-module-wrap>
+    </div>
     <!-- END REVOLUTION SLIDER -->
 
     <!--site-main start-->
@@ -232,7 +271,10 @@
                                 </h2>
                             </div>
                             <div class="title-desc">
-                                <p class="theme-dark-gry-text text-justify">We are an expert visa consultant focusing on providing quick services to all your student visa journey. Be it admissions, interview preparations, language coaching, visa, travel insurance, flight ticketing, we cover it all.</p>
+                                <p class="theme-dark-gry-text text-justify">We are an expert visa consultant focusing on
+                                    providing quick services to all your student visa journey. Be it admissions,
+                                    interview preparations, language coaching, visa, travel insurance, flight ticketing,
+                                    we cover it all.</p>
                             </div>
                         </div><!-- section title end -->
                     </div>
@@ -344,7 +386,8 @@
                                              alt="image">
                                     </div>
                                     <div class="featured-title">
-                                        <h5><a href="usaWhyStudy.html" tabindex="-1" class="theme-white-text">United States</a></h5>
+                                        <h5><a href="usaWhyStudy.html" tabindex="-1" class="theme-white-text">United
+                                            States</a></h5>
                                     </div>
                                     <div class="featured-desc">
                                     </div>
@@ -384,7 +427,8 @@
                         <div class="res-991-pt-30">
                             <h4>Start your journey with Yuranus Education</h4>
                             <p class="mb-20">You are one step away from starting your journey with Yuranus Education.
-                                Fill in our onboarding form and become a part of the Yuranus Education Global Community</p>
+                                Fill in our onboarding form and become a part of the Yuranus Education Global
+                                Community</p>
                         </div>
                     </div>
                 </div>
@@ -394,7 +438,8 @@
                         <div class="res-991-pt-30">
                             <h4>Still not sure which way to go?</h4>
                             <p class="mb-20">We have all the tools you need to find out.
-                                Check out the Countries details on Study Abroad Menu to find all the relevant details that suits you best and start your journey now!</p>
+                                Check out the Countries details on Study Abroad Menu to find all the relevant details
+                                that suits you best and start your journey now!</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 mx-auto">
@@ -411,14 +456,16 @@
         <!--################### Examinations ####################-->
         <!--#####################################################-->
 
-        <section class="cmt-row introduction-section cmt-bg cmt-bgimage-yes bg-yellow-color mt_60 res-991-mt-0 clearfix">
+        <section
+                class="cmt-row introduction-section cmt-bg cmt-bgimage-yes bg-yellow-color mt_60 res-991-mt-0 clearfix">
             <div class="cmt-row-wrapper-bg-layer cmt-bg-layer"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-8 col-sm-11 mx-auto col-xs-12">
                         <!-- ttm_single_image-wrapper -->
                         <div class="ttm_single_image-wrapper mr-60 pt-60 res-991-pt-0 res-991-mr-0 position-relative">
-                            <img class="img-fluid w-100" src="resources/images/home/Welcome%20522X520.jpg" alt="single_04">
+                            <img class="img-fluid w-100" src="resources/images/home/Welcome%20522X520.jpg"
+                                 alt="single_04">
                             <!--featured-icon-box-->
                             <!-- featured-icon-box end-->
                         </div>
@@ -428,7 +475,7 @@
                             <!-- section title -->
                             <div class="section-title">
                                 <div class="title-header">
-                                    <h2 class="title"> <strong>English Language </strong><br> Test Options
+                                    <h2 class="title"><strong>English Language </strong><br> Test Options
                                     </h2>
                                 </div>
                             </div><!-- section title end -->
@@ -449,96 +496,87 @@
 
                                             </div>
 
-                                </div><!-- featured-icon-box end-->
+                                        </div><!-- featured-icon-box end-->
                                 </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <!--featured-icon-box-->
-                                <a href="PTE.html">
-                                    <div class="featured-icon-box icon-align-top-content style3 theme-dark-background">
-                                        <div class="featured-icon">
-                                            <div class="cmt-icon cmt-icon_element-onlytxt cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                                <i class="flaticon-policy"></i>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <!--featured-icon-box-->
+                                    <a href="PTE.html">
+                                        <div class="featured-icon-box icon-align-top-content style3 theme-dark-background">
+                                            <div class="featured-icon">
+                                                <div class="cmt-icon cmt-icon_element-onlytxt cmt-icon_element-color-skincolor cmt-icon_element-size-md">
+                                                    <i class="flaticon-policy"></i>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h5 class="theme-white-text">PTE</h5>
-                                            </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h5 class="theme-white-text">PTE</h5>
+                                                </div>
 
-                                        </div>
-                                    </div>
-                                </a>
-                                <!-- featured-icon-box end-->
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <!--featured-icon-box-->
-                                <a href="IELTS_what.html">
-                                    <div class="featured-icon-box icon-align-top-content style3 theme-dark-background">
-                                        <div class="featured-icon">
-                                            <div class="cmt-icon cmt-icon_element-onlytxt cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                                <i class="flaticon-contract"></i>
                                             </div>
                                         </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h5 class="theme-white-text">IELTS</h5>
+                                    </a>
+                                    <!-- featured-icon-box end-->
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <!--featured-icon-box-->
+                                    <a href="IELTS_what.html">
+                                        <div class="featured-icon-box icon-align-top-content style3 theme-dark-background">
+                                            <div class="featured-icon">
+                                                <div class="cmt-icon cmt-icon_element-onlytxt cmt-icon_element-color-skincolor cmt-icon_element-size-md">
+                                                    <i class="flaticon-contract"></i>
+                                                </div>
                                             </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h5 class="theme-white-text">IELTS</h5>
+                                                </div>
 
-                                        </div>
-                                    </div>
-                                </a>
-                                <!-- featured-icon-box end-->
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <!--featured-icon-box-->
-                                <a href="DUOLINGO.html">
-                                    <div class="featured-icon-box icon-align-top-content style3 theme-dark-background">
-                                        <div class="featured-icon">
-                                            <div class="cmt-icon cmt-icon_element-onlytxt cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                                <i class="flaticon-certificate"></i>
                                             </div>
                                         </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h5 class="theme-white-text">Duolingo</h5>
+                                    </a>
+                                    <!-- featured-icon-box end-->
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <!--featured-icon-box-->
+                                    <a href="DUOLINGO.html">
+                                        <div class="featured-icon-box icon-align-top-content style3 theme-dark-background">
+                                            <div class="featured-icon">
+                                                <div class="cmt-icon cmt-icon_element-onlytxt cmt-icon_element-color-skincolor cmt-icon_element-size-md">
+                                                    <i class="flaticon-certificate"></i>
+                                                </div>
+                                            </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h5 class="theme-white-text">Duolingo</h5>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </a>
-                                <!-- featured-icon-box end-->
+                                    </a>
+                                    <!-- featured-icon-box end-->
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div><!-- row end -->
-             </div>
-    </section>
-
-
-        <section class="cmt-row testimonial_2-section bg-layer-equal-height cmt-bg bg-img4 cmt-bgimage-yes clearfix">
-            <div class="bg-anim-2 text-right">
-                <img class="img-fluid" src="images/anim_img_02.png" alt="">
+                </div><!-- row end -->
             </div>
+        </section>
+
+        <section class="bg-layer-equal-height cmt-bg bg-img4 cmt-bgimage-yes clearfix">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <!-- col-img-img-three -->
                         <div class="col-bg-img-three cmt-col-bgimage-yes cmt-bg pt-100 pb-90">
-                            <div class="cmt-col-wrapper-bg-layer cmt-bg-layer">
-                                <div class="cmt-col-wrapper-bg-layer-inner"></div>
-                            </div>
                             <div class="layer-content h-100">
                                 <div class="d-flex justify-content-center align-items-center h-100">
                                     <div class="cmt-play-icon-btn">
 
-                                        <div class="cmt-play-icon-animation">
-                                           <!-- <a href="https://youtu.be/7e90gBu4pas" target="_self" class="cmt_prettyphoto">--!>
-                                            <img class="img-fluid" src="resources/images/home/Student Testmonial cover Image 601X636.jpg" alt="image">
-                                                <div class="">
-
-                                                    <i class="fa fa-play"></i>
-                                                </div>
-                                            </a>
+                                        <div class="">
+                                            <img class="img-fluid"
+                                                 src="resources/images/home/Student Testmonial cover Image 601X636.jpg"
+                                                 alt="image">
+                                            <div class="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -546,9 +584,8 @@
                         </div><!-- col-img-bg-img-one end-->
                     </div>
                     <div class="col-lg-6 col-xs-12">
-                        <div class="cmt-col-bgcolor-yes cmt-bg cmt-bgcolor-white box-shadow spacing-3">
+                        <div class="box-shadow spacing-3">
                             <div class="cmt-col-wrapper-bg-layer cmt-bg-layer">
-                                <div class="cmt-col-wrapper-bg-layer-inner"></div>
                             </div>
                             <div class="layer-content">
                                 <!-- section title -->
@@ -558,12 +595,18 @@
                                         <h2 class="title">What Our <strong>Client Says?</strong></h2>
                                     </div>
                                 </div><!-- section title end -->
-                                <div class="row slick_slider slick-dots-style1" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "dots":true, "arrows":false, "autoplay":true, "infinite":true,  "responsive": [{"breakpoint":991,"settings":{"slidesToShow": 1}}, {"breakpoint":550,"settings":{"slidesToShow": 1}}]}'>
+                                <div class="row slick_slider slick-dots-style1"
+                                     data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "dots":true, "arrows":false, "autoplay":true, "infinite":true,  "responsive": [{"breakpoint":991,"settings":{"slidesToShow": 1}}, {"breakpoint":550,"settings":{"slidesToShow": 1}}]}'>
                                     <div class="col-lg-12">
                                         <!-- testimonials -->
                                         <div class="testimonials cmt-testimonial-box-view-style1">
                                             <div class="testimonial-content">
-                                                <blockquote class="testimonial-text">I really would like to appreciate Yuranus Education and the entire team, especially Mr. Pankhil Desai for helping me get my student visa for the Arkansas State University. He helped me all the way to find the University & right course. He was there for me through the entire process.</blockquote>
+                                                <blockquote class="testimonial-text">I really would like to appreciate
+                                                    Yuranus Education and the entire team, especially Mr. Pankhil Desai
+                                                    for helping me get my student visa for the Arkansas State
+                                                    University. He helped me all the way to find the University & right
+                                                    course. He was there for me through the entire process.
+                                                </blockquote>
                                                 <div class="testimonial-avatar">
                                                     <div class="testimonial-caption">
                                                         <h5>Himani Vidhani</h5>
@@ -573,8 +616,8 @@
                                             </div>
                                         </div><!-- testimonials end -->
                                     </div>
-                                    <div class="col-lg-12">
-                                        <!-- testimonials -->
+                                    <!--<div class="col-lg-12">
+                                        &lt;!&ndash; testimonials &ndash;&gt;
                                         <div class="testimonials cmt-testimonial-box-view-style1">
                                             <div class="testimonial-content">
                                                 <blockquote class="testimonial-text">I really would like to appreciate Tripzia and the entire team, especially Ms Anandias Alex for helping me get my student visa for the Brunel University. She helped me all way to find the University & right course. She was there for me through the entire process.</blockquote>
@@ -585,10 +628,10 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div><!-- testimonials end -->
+                                        </div>&lt;!&ndash; testimonials end &ndash;&gt;
                                     </div>
                                     <div class="col-lg-12">
-                                        <!-- testimonials -->
+                                        &lt;!&ndash; testimonials &ndash;&gt;
                                         <div class="testimonials cmt-testimonial-box-view-style1">
                                             <div class="testimonial-content">
                                                 <blockquote class="testimonial-text">I really would like to appreciate Tripzia and the entire team, especially Ms Anandias Alex for helping me get my student visa for the Brunel University. She helped me all way to find the University & right course. She was there for me through the entire process.</blockquote>
@@ -599,33 +642,119 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div><!-- testimonials end -->
-                                    </div>
+                                        </div>&lt;!&ndash; testimonials end &ndash;&gt;
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div><!-- row end -->
             </div>
-            <div class="bg-anim-1 mt_120">
-                <img class="img-fluid" src="images/anim_img_01.png" alt="">
-            </div>
         </section>
 
-</div><!--site-main end-->
+        <!--client-section-->
+        <div class="cmt-row client-section border-bottom clearfix">
+            <div class="container">
+                <!-- row -->
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <!-- slick_slider -->
+                        <div class="slick_slider row"
+                             data-slick='{"slidesToShow": 6, "slidesToScroll": 1, "arrows":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 5}}, {"breakpoint":1024,"settings":{"slidesToShow": 4}}, {"breakpoint":777,"settings":{"slidesToShow": 3}}, {"breakpoint":575,"settings":{"slidesToShow": 2}}]}'>
+                            <div class="client-box">
+                                <div class="cmt-client-logo-tooltip" data-tooltip="client-01">
+                                    <div class="client-thumbnail">
+                                        <img class="img-fluid"
+                                             src="resources/images/about us/UNIVERSITIES LOGOS/USA/Montana State University Biling.png"
+                                             alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-box">
+                                <div class="cmt-client-logo-tooltip" data-tooltip="client-02">
+                                    <div class="client-thumbnail">
+                                        <img class="img-fluid"
+                                             src="resources/images/about us/UNIVERSITIES LOGOS/USA/Skagit college.png"
+                                             alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-box">
+                                <div class="cmt-client-logo-tooltip" data-tooltip="client-03">
+                                    <div class="client-thumbnail">
+                                        <img class="img-fluid"
+                                             src="resources/images/about us/UNIVERSITIES LOGOS/UK/Solent University.png"
+                                             alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-box">
+                                <div class="cmt-client-logo-tooltip" data-tooltip="client-04">
+                                    <div class="client-thumbnail">
+                                        <img class="img-fluid"
+                                             src="resources/images/about us/UNIVERSITIES LOGOS/UK/University of Wales, Trinity Saint David  .png"
+                                             alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-box">
+                                <div class="cmt-client-logo-tooltip" data-tooltip="client-05">
+                                    <div class="client-thumbnail">
+                                        <img class="img-fluid"
+                                             src="resources/images/about us/UNIVERSITIES LOGOS/CAN/2560px-Canadore_College.svg.png"
+                                             alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-box">
+                                <div class="cmt-client-logo-tooltip" data-tooltip="client-06">
+                                    <div class="client-thumbnail">
+                                        <img class="img-fluid"
+                                             src="resources/images/about us/UNIVERSITIES LOGOS/CAN/fanshawe-internationalprimary-horz-fc-rgb.png"
+                                             alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-box">
+                                <div class="cmt-client-logo-tooltip" data-tooltip="client-02">
+                                    <div class="client-thumbnail">
+                                        <img class="img-fluid"
+                                             src="resources/images/about us/UNIVERSITIES LOGOS/AUS/Melbourne Institute_Of_Technology.jpeg"
+                                             alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-box">
+                                <div class="cmt-client-logo-tooltip" data-tooltip="client-04">
+                                    <div class="client-thumbnail">
+                                        <img class="img-fluid"
+                                             src="resources/images/about us/UNIVERSITIES LOGOS/AUS/University of Southern Queensland.png"
+                                             alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- cmt-client end -->
+                    </div>
+                </div><!-- row end -->
+            </div>
+        </div>
+        <!--client-section-->
+
+    </div>
+    <!--site-main end-->
 
 
-<!--footer start-->
+    <!--footer start-->
 
-<footer id="footer" class="footer cmt-bgcolor-darkgrey widget-footer clearfix"></footer>
+    <footer id="footer" class="footer cmt-bgcolor-darkgrey widget-footer clearfix"></footer>
 
-<!--footer end-->
+    <!--footer end-->
 
-<!--back-to-top start-->
-<a id="totop" href="#top">
-    <i class="fa fa-angle-up"></i>
-</a>
-<!--back-to-top end-->
+    <!--back-to-top start-->
+    <a id="totop" href="#top">
+        <i class="fa fa-angle-up"></i>
+    </a>
+    <!--back-to-top end-->
 
 </div><!-- page end -->
 
@@ -647,12 +776,33 @@
 
 <!-- Revolution Slider -->
 
-<script src="resources/revolution/js/slider.js"></script>
-
+<!--<script src="resources/revolution/js/slider.js"></script>-->
+<script src="resources/js/owl.carousel.min.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        navText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>"
+        ],
+        autoplay: 3000,
+        autoplayHoverPause: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
+</script>
 <!-- SLIDER REVOLUTION 6.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-
-<script src='resources/revolution/js/revolution.tools.min.js'></script>
-<script src='resources/revolution/js/rs6.min.js'></script>
 
 <!-- Javascript end-->
 

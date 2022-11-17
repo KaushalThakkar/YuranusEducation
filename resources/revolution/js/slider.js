@@ -45,7 +45,7 @@ jQuery(function() {
       },
     });
   }
-  
+
 });
 
 
@@ -91,11 +91,11 @@ var revapi2,
         },
       });
     }
-    
+
   });
 
 
-          
+
 var revapi3,
     tpj;
 jQuery(function() {
@@ -138,5 +138,5 @@ jQuery(function() {
             },
         });
     }
-    
+
 });
