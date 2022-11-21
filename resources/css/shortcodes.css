@@ -2018,18 +2018,20 @@ div.col-lg-3:nth-child(even) .featured-icon-box.icon-align-top-content.style1{
     text-align: center;
 }
 .client-box .cmt-client-logo-tooltip{ 
-    padding-top: 45px; 
-    padding-bottom: 35px;
+
+     padding-top: 100px;
+    padding-bottom: 75px;
 }
 .client-box .cmt-client-logo-tooltip,
 .client-box .cmt-client-logo-tooltip-inner{
     position: relative;
     overflow: hidden;
+
 }
 .client-box .cmt-client-logo-tooltip img{
     text-align: center;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 .client-box .tooltip-top:after, .client-box .tooltip-top:before, .client-box .tooltip:after, 
 .client-box .tooltip:before, .client-box [data-tooltip]:after, .client-box [data-tooltip]:before { 
