@@ -38,9 +38,9 @@
   9. Footer
      - FirstFooter
      - SecondFooter
- 
+
   10. GoTop BUtton
-  
+
   11. Page-Title-Row
 
   12. Inner-Pages
@@ -52,8 +52,8 @@
       - Map
 
 **/
- 
- 
+
+
 /* ===============================================
     General
 ------------------------*/
@@ -61,7 +61,7 @@
     color: #008801;
 }
 /** Variables **/
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 a, a:hover, a:focus, a:active {
@@ -69,14 +69,14 @@ a, a:hover, a:focus, a:active {
     outline: none;
     color: inherit;
 }
-a, button, input { 
-    outline: none; 
+a, button, input {
+    outline: none;
 }
-ol, ul{ 
-    padding: 0; 
+ol, ul{
+    padding: 0;
     margin: 0;
 }
-strong{ 
+strong{
   font-weight: 600;
 }
 iframe{
@@ -84,41 +84,41 @@ iframe{
   border: none;
   display: block;
 }
-p { 
-    margin: 0 0 15px; 
+p {
+    margin: 0 0 15px;
 }
 
-*::-moz-selection { 
-    background: #2457aa; 
-    color: #fff; 
-    text-shadow: none; 
-}
-::-moz-selection { 
-    background: #2457aa; 
+*::-moz-selection {
+    background: #2457aa;
     color: #fff;
-    text-shadow: none; 
+    text-shadow: none;
 }
-::selection { 
-    background: #2457aa; 
-    color: #fff; 
-    text-shadow: none; 
+::-moz-selection {
+    background: #2457aa;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #2457aa;
+    color: #fff;
+    text-shadow: none;
 }
 
-textarea, input[type="text"], 
-input[type="password"], 
-input[type="datetime"], 
-input[type="datetime-local"], 
-input[type="date"], 
-input[type="month"], 
-input[type="time"], 
-input[type="week"], 
-input[type="number"], 
-input[type="email"], 
-input[type="url"], 
-input[type="search"], 
-input[type="tel"], 
-input[type="color"], 
-.uneditable-input, 
+textarea, input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input,
 select{
     font-family: inherit;
     -webkit-transition: border linear .2s,box-shadow linear .2s;
@@ -142,8 +142,8 @@ select{
     line-height: inherit;
     letter-spacing: 0px;
 }
-button, input[type="submit"], 
-input[type="button"], 
+button, input[type="submit"],
+input[type="button"],
 input[type="reset"] {
     display: inline-block;
     text-decoration: none;
@@ -161,19 +161,19 @@ input[type="reset"] {
     -webkit-font-smoothing: antialiased;
 }
 
-textarea:focus, 
-input[type="text"]:focus, 
-input[type="password"]:focus, 
-input[type="datetime"]:focus, 
-input[type="datetime-local"]:focus, 
-input[type="date"]:focus, 
-input[type="month"]:focus, 
-input[type="time"]:focus, 
-input[type="week"]:focus, 
-input[type="number"]:focus, 
-input[type="email"]:focus, 
-input[type="url"]:focus, 
-input[type="tel"]:focus, 
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
 input[type="color"]:focus {
     border: 1px solid #0067ed;
     -webkit-box-shadow: none;
@@ -201,7 +201,7 @@ input::-moz-placeholder,
 input:-ms-input-placeholder ,
 input::-ms-input-placeholder,
 textarea::-webkit-input-placeholder,
-input::-webkit-input-placeholde  {   
+input::-webkit-input-placeholde  {
   color: #fff;
 }
 
@@ -238,7 +238,7 @@ body .site-main {
     position: relative;
     z-index: 1;
 }
-body .page.sidebar-true .site-main{ 
+body .page.sidebar-true .site-main{
     padding: 0;
     background-color: #fff;
 }
@@ -288,10 +288,10 @@ a, img{
     -o-animation: movingplane 4s cubic-bezier(0.51, 0.45, 0.75, 0.72) infinite;
 }
 @keyframes movingplane {
-    0% { 
+    0% {
          margin-left: 0;
     }
-    25% { 
+    25% {
           bottom: -90px;
           margin-left: 20px;
     }
@@ -319,22 +319,22 @@ a, img{
     height: 70px;
 }
 @keyframes movingcard {
-    0% { 
+    0% {
          margin-left: 0;
     }
-    25% { 
+    25% {
           top: -215px;
           transform: rotate(-5deg);
     }
     50% {
           top: -210px;
           transform: rotate(-10deg);
-          
+
     }
     75% {
           top: -180px;
           transform: rotate(-15deg);
-          
+
     }
     100% {
           top: -150px;
@@ -345,7 +345,7 @@ a, img{
 }
 
 @keyframes mymove {
-    
+
  20% {transform: translate(calc(5% * -20 ),0px);}
   40% {transform: translate(calc(5% * -12 ),0px);}
    60% {transform: translate(calc(5% * -10 ),0px);}
@@ -355,7 +355,7 @@ a, img{
 }
 
 @keyframes  {
-    
+
  0% {transform: translate(70px,0px);}
  20% {transform: translate(calc(100% * -2 ),0px);}
   40% {transform: translate(calc(100% * -5 ),0px);}
@@ -625,21 +625,21 @@ a, img{
 ------------------------*/
 /** 1.Skin-color **/
 .cmt-textcolor-skincolor,
-.cmt-textcolor-skincolor h1, 
+.cmt-textcolor-skincolor h1,
 .cmt-textcolor-skincolor h2,
-.cmt-textcolor-skincolor h3, 
+.cmt-textcolor-skincolor h3,
 .cmt-textcolor-skincolor h4,
 .cmt-textcolor-skincolor h5,
 .cmt-textcolor-skincolor h6,
 .cmt-textcolor-skincolor a, .cmt-textcolor-skincolor i,
-:not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor a, :not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor i, 
-:not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor a, :not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor i, 
-a.cmt-textcolor-skincolor, i.cmt-textcolor-skincolor, 
+:not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor a, :not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor i,
+:not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor a, :not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor i,
+a.cmt-textcolor-skincolor, i.cmt-textcolor-skincolor,
 :not(.cmt-bgcolor-darkgrey) a.cmt-textcolor-skincolor,
 :not(.cmt-bgcolor-darkgrey) i.cmt-textcolor-skincolor,
-.cmt-bgcolor-darkgrey .cmt-textcolor-skincolor h1, 
+.cmt-bgcolor-darkgrey .cmt-textcolor-skincolor h1,
 .cmt-bgcolor-darkgrey .cmt-textcolor-skincolor h2,
-.cmt-bgcolor-darkgrey .cmt-textcolor-skincolor h3, 
+.cmt-bgcolor-darkgrey .cmt-textcolor-skincolor h3,
 .cmt-bgcolor-darkgrey .cmt-textcolor-skincolor h4,
 .cmt-bgcolor-darkgrey .cmt-textcolor-skincolor h5,
 .cmt-bgcolor-darkgrey .cmt-textcolor-skincolor h6,
@@ -652,11 +652,11 @@ a.cmt-textcolor-skincolor, i.cmt-textcolor-skincolor,
 .cmt-bgcolor-grey .cmt-btn-color-skincolor,
 .cmt-list-icon-color-skincolor li i,
 .cmt-icon_element-border.cmt-icon_element-color-skincolor,
-.cmt-btn-style-border.cmt-btn-color-skincolor, 
+.cmt-btn-style-border.cmt-btn-color-skincolor,
 .cmt-icon_element-fill.cmt-icon_element-color-white,
-.cmt-icon_element-color-skincolor, 
-.cmt-icon_element-color-skincolor:not(.cmt-icon_element-fill) i, 
-.cmt-bgcolor-darkgrey .cmt-icon_element-color-skincolor i, 
+.cmt-icon_element-color-skincolor,
+.cmt-icon_element-color-skincolor:not(.cmt-icon_element-fill) i,
+.cmt-bgcolor-darkgrey .cmt-icon_element-color-skincolor i,
 nav.main-menu ul.menu > li.active > a,
 a:hover, .cmt-bgcolor-darkgrey a:hover, .section-title h5,
 .testimonials.cmt-testimonial-box-view-style2 .testimonial-content:before,
@@ -730,20 +730,20 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date,
 
 
 /** Skin-border-color **/
-.cmt-btn-style-fill.cmt-btn-color-skincolor, 
+.cmt-btn-style-fill.cmt-btn-color-skincolor,
 .cmt-btn.cmt-btn-style-fill.cmt-btn-color-dark:hover,
 .cmt-btn.cmt-btn-style-fill.cmt-btn-color-white:hover,
 .cmt-bgcolor-darkgrey .cmt-btn.cmt-btn-style-fill.cmt-btn-color-white:not(.btn-inline):hover,
 .cmt-icon.cmt-icon_element-border.cmt-icon_element-color-skincolor,
 .featured-icon-box.icon-align-top-content.style1 a.di_link:hover,
 .cmt-page-title-row-inner .row, .social-icons.circle li>a:hover,
-:not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor a, :not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor i, 
+:not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor a, :not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor i,
 :not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor a, :not(.cmt-bgcolor-darkgrey) .cmt-textcolor-skincolor i
 
 {
     border-color: #f6c90e;
 }
-.cmt-bgcolor-darkgrey .tooltip-top:before, .cmt-bgcolor-darkgrey .tooltip:before, 
+.cmt-bgcolor-darkgrey .tooltip-top:before, .cmt-bgcolor-darkgrey .tooltip:before,
 .cmt-bgcolor-grey .tooltip-top:before, .cmt-bgcolor-grey .tooltip:before,
 .cmt-bgcolor-grey [data-tooltip]:before,
 .cmt-tabs.tabs-style-02 ul.tabs li.active a:after,
@@ -761,7 +761,7 @@ nav.main-menu
 .cmt-textcolor-darkgrey,
 .cmt-textcolor-darkgrey p,
 .cmt-textcolor-darkgrey h1, .cmt-textcolor-darkgrey h2, .cmt-textcolor-darkgrey h3,
-.cmt-textcolor-darkgrey h4, .cmt-textcolor-darkgrey h5, .cmt-textcolor-darkgrey h6, 
+.cmt-textcolor-darkgrey h4, .cmt-textcolor-darkgrey h5, .cmt-textcolor-darkgrey h6,
 .cmt-icon.cmt-icon_element-border.cmt-icon_element-color-darkgrey,
 .cmt-btn.cmt-btn-style-border.cmt-btn-color-dark:hover,
 .cmt-btn.cmt-btn-style-border.cmt-btn-color-white:hover,
@@ -842,25 +842,25 @@ a.cmt-btn.cmt-btn-style-fill.cmt-btn-color-white:hover, a.cmt-btn.cmt-btn-style-
     border-color: #1f2437;
 }
 
-.cmt-bgcolor-skincolor .tooltip-top:before, .cmt-bgcolor-skincolor .tooltip:before, .cmt-bgcolor-skincolor [data-tooltip]:before, 
+.cmt-bgcolor-skincolor .tooltip-top:before, .cmt-bgcolor-skincolor .tooltip:before, .cmt-bgcolor-skincolor [data-tooltip]:before,
 .tooltip-top:before, .tooltip:before, [data-tooltip]:before{
     border-top-color: #1f2437 !important;
 }
 
 
 /** 3.White-color **/
-.cmt-textcolor-white, .cmt-bgcolor-skincolor a, .cmt-textcolor-white a, 
+.cmt-textcolor-white, .cmt-bgcolor-skincolor a, .cmt-textcolor-white a,
 .cmt-btn-color-white, .cmt-icon_element-color-white, .cmt-bgcolor-skincolor i, .cmt-bgcolor-darkgrey i,
-.cmt-textcolor-white h1, .cmt-textcolor-white h2, .cmt-textcolor-white h3, 
+.cmt-textcolor-white h1, .cmt-textcolor-white h2, .cmt-textcolor-white h3,
 .cmt-textcolor-white h4, .cmt-textcolor-white h5, .cmt-textcolor-white h6, .cmt-textcolor-white a,
-.cmt-bgcolor-skincolor h1, .cmt-bgcolor-skincolor h2, .cmt-bgcolor-skincolor h3, 
+.cmt-bgcolor-skincolor h1, .cmt-bgcolor-skincolor h2, .cmt-bgcolor-skincolor h3,
 .cmt-bgcolor-skincolor h4, .cmt-bgcolor-skincolor h5, .cmt-bgcolor-skincolor h6, .cmt-bgcolor-skincolor a,
 :not(.cmt-bgcolor-skincolor) .cmt-textcolor-white span,
-.cmt-bgcolor-darkgrey h1, .cmt-bgcolor-darkgrey h2, .cmt-bgcolor-darkgrey h3, 
+.cmt-bgcolor-darkgrey h1, .cmt-bgcolor-darkgrey h2, .cmt-bgcolor-darkgrey h3,
 .cmt-bgcolor-darkgrey h4, .cmt-bgcolor-darkgrey h5, .cmt-bgcolor-darkgrey h6, .cmt-bgcolor-darkgrey a,
 .cmt-textcolor-white .cmt-social-links-wrapper ul li a,
 .cmt-icon_element-fill.cmt-icon_element-color-skincolor,
-.cmt-icon_element-fill.cmt-icon_element-color-skincolor i, 
+.cmt-icon_element-fill.cmt-icon_element-color-skincolor i,
 .cmt-icon_element-fill.cmt-icon_element-color-darkgrey,
 .cmt-btn-style-fill.cmt-btn-color-skincolor,
 .cmt-bgcolor-darkgrey .cmt-btn.cmt-btn-style-fill.cmt-btn-color-white:not(.btn-inline):hover,
@@ -910,7 +910,7 @@ a.cmt-btn.cmt-btn-style-fill.cmt-btn-color-white:hover, a.cmt-btn.cmt-btn-style-
 .widget.widget-download ul li:hover h4,
 .cmt-blog-single .cmt-box-post-date,
 .pagination-block .page-numbers:hover,
-.pagination-block .page-numbers.current { 
+.pagination-block .page-numbers.current {
     color: #FFFFFF;
 }
 
@@ -944,7 +944,7 @@ nav.main-menu ul.menu li ul.mega-submenu li.active > a,
 
 
 /** White-bg-color **/
-.cmt-bgcolor-white, 
+.cmt-bgcolor-white,
 .cmt-bgcolor-white > .cmt-bg-layer,
 .cmt-bgcolor-white > .cmt-bg-layer > .cmt-col-wrapper-bg-layer-inner,
 .cmt-icon_element-fill.cmt-icon_element-color-white,
@@ -952,9 +952,9 @@ nav.main-menu ul.menu li ul.mega-submenu li.active > a,
 .cmt-btn.cmt-btn-style-border.cmt-btn-color-white:not(.btn-inline):hover:before,
 .cmt-btn-style-fill.cmt-btn-color-white,
 .cmt-icon_element-fill.cmt-icon_element-color-white,
-.cmt-bgcolor-skincolor .section-title h5:before, 
+.cmt-bgcolor-skincolor .section-title h5:before,
 .cmt-bgcolor-skincolor .section-title.title-style-center_text h5:after,
-.cmt-bgcolor-darkgrey .section-title h5:before, 
+.cmt-bgcolor-darkgrey .section-title h5:before,
 .cmt-bgcolor-darkgrey .section-title.title-style-center_text h5:after,
 .cmt-tabs.cmt-tab-style-vertical ul.tabs li.active a,
 .ttm_subscribe_form .btn[type="submit"]:hover {
@@ -985,7 +985,7 @@ nav.main-menu ul.menu li ul.mega-submenu li.active > a,
 .cmt-btn-style-fill.cmt-btn-color-grey,
 .cmt-header-style-03 .header_search #search_query_top,
 .cmt-toggle-title-bgcolor-grey .toggle-title ,
-.wrap-form.contact_form span.text-input input, 
+.wrap-form.contact_form span.text-input input,
 .wrap-form.contact_form span.text-input textarea,
 .wrap-form.contact_form span.text-input select,
 .comment-body,
@@ -998,7 +998,7 @@ nav.main-menu ul.menu li ul.mega-submenu li.active > a,
 }
 .comment-body:after{
     color: #f5faff;
-} 
+}
 .cmt-icon.cmt-icon_element-fill.cmt-icon_element-color-grey{
     color: inherit;
 }
@@ -1032,8 +1032,8 @@ nav.main-menu ul.menu li ul.mega-submenu li.active > a,
 /*  ===============================================
     SocialIcon / TooltipTop
 ------------------------*/
-ul.social-icons{ 
-    margin: 0; 
+ul.social-icons{
+    margin: 0;
     padding: 0;
 }
 .social-icons li {
@@ -1111,8 +1111,8 @@ ul.social-icons{
 .tooltip-bottom:before{
     bottom: -7px;
 }
-.tooltip-top:focus:after, .tooltip-top:focus:before, .tooltip-top:hover:after, .tooltip-top:hover:before, 
-.tooltip:focus:after, .tooltip:focus:before, .tooltip:hover:after, .tooltip:hover:before, [data-tooltip]:focus:after, 
+.tooltip-top:focus:after, .tooltip-top:focus:before, .tooltip-top:hover:after, .tooltip-top:hover:before,
+.tooltip:focus:after, .tooltip:focus:before, .tooltip:hover:after, .tooltip:hover:before, [data-tooltip]:focus:after,
 [data-tooltip]:focus:before, [data-tooltip]:hover:after, [data-tooltip]:hover:before {
     -webkit-transform: translateY(-12px);
     -moz-transform: translateY(-12px);
@@ -1132,7 +1132,7 @@ ul.social-icons{
     text-align: center;
     border-radius: 5px;
 }
-.tooltip:focus:after, .tooltip:focus:before, .tooltip:hover:after, .tooltip:hover:before, 
+.tooltip:focus:after, .tooltip:focus:before, .tooltip:hover:after, .tooltip:hover:before,
 [data-tooltip]:focus:after, [data-tooltip]:focus:before, [data-tooltip]:hover:after, [data-tooltip]:hover:before {
     visibility: visible;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -1201,8 +1201,8 @@ ul.social-icons{
 .slick_slider.slick-arrows-style1 .slick-prev{ left: 0; }
 .slick_slider.slick-arrows-style1 .slick-next{ right: 0; }
 
-.slick_slider.slick-arrows-style2 .slick-next{ 
-    right: auto; 
+.slick_slider.slick-arrows-style2 .slick-next{
+    right: auto;
     left: -315px;
     top: 90%;
 }
@@ -1338,7 +1338,7 @@ ul.social-icons{
 
 
 /* header_extra */
-.header_extra > div{ 
+.header_extra > div{
     margin-left: 7px;
 }
 .header_search #searchbox{
@@ -1387,7 +1387,7 @@ ul.social-icons{
     background-color: #fff;
     clear: both;
     box-shadow: 0 0 9px 0 rgba(29, 33, 67, 0.10);
-    border-radius: 0px 0px 5px 5px; 
+    border-radius: 0px 0px 5px 5px;
 }
 .header_search .header_search_content.on{
     display: block;
@@ -1435,7 +1435,7 @@ ul.social-icons{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.footer .widget .widget-title { 
+.footer .widget .widget-title {
     font-size: 19PX;
     line-height: 16px;
     font-weight: 500;
@@ -1550,7 +1550,7 @@ ul.social-icons{
     line-height: 12px;
     margin-bottom: 7px;
 }
-.widget ul.cmt-recent-post-list>li .post-date i{ 
+.widget ul.cmt-recent-post-list>li .post-date i{
     margin-right: 5px;
     font-size: 11px;
 }
@@ -1667,7 +1667,7 @@ ul.footer-nav-menu li:last-child:after{
 /* ===============================================
     Page-Title-Row
 ------------------------*/
-.cmt-page-title-row { 
+.cmt-page-title-row {
     background: url(../images/studyAbroad/studyAbroad.jpg);
     width: 100%;
     background-size: cover;
@@ -1675,7 +1675,7 @@ ul.footer-nav-menu li:last-child:after{
     position: relative;
     z-index: 1;
 }
-.cmt-page-title-row-inner { 
+.cmt-page-title-row-inner {
     width: 100%;
     padding: 90px 0;
     background-color: rgba(0, 0, 0, 0.02);
@@ -1693,7 +1693,7 @@ ul.footer-nav-menu li:last-child:after{
     line-height: 51px;
     margin-bottom: 0px;
 }
-.page-title-heading p { 
+.page-title-heading p {
     font-size: 18px;
     color: #fff;
 }
@@ -1753,7 +1753,7 @@ ul.footer-nav-menu li:last-child:after{
 
 /*------------------------------------------------------------------------------*/
 /*  single-pages-content
-/*------------------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------------------*/
 .cmt-team-single-contents .left-content h4 { font-size: 22px; line-height: 28px; }
 .cmt-team-single-contents .right-content h4 { font-size: 26px; line-height: 32px; }
 
@@ -1767,11 +1767,11 @@ article.cmt-blog-classic {
     margin-bottom: 50px;
     padding-bottom: 0;
 }
-article.cmt-blog-classic:last-child{ 
+article.cmt-blog-classic:last-child{
     margin-bottom: 15px;
 }
-article.cmt-blog-classic, .cmt-post-featured-wrapper{ 
-    position: relative; 
+article.cmt-blog-classic, .cmt-post-featured-wrapper{
+    position: relative;
 }
 article.cmt-blog-classic .cmt-blog-classic-content {
     padding: 35px 30px 27px;
@@ -1949,9 +1949,9 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date{
 }
 .comment-list li { position: relative; margin-top: 30px; }
 .comment-list .children { margin-left: 35px; }
-.comment-list, .comment-list .children { 
+.comment-list, .comment-list .children {
   list-style-type: none;
-  padding: 0; 
+  padding: 0;
 }
 .single-post .comments-area { margin-top: 50px; margin-bottom: 0; }
 .single-post .comments-area .comments-title { font-size: 33px; font-weight: 600; }
@@ -1989,7 +1989,7 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date{
     line-height: 28px;
     margin-bottom: 10px;
 }
-.comment-notes{ 
+.comment-notes{
     font-size: 15px;
     font-style: italic;
 }
@@ -2000,7 +2000,7 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date{
 }
 .comment-body .author-content-wrap p{ margin-bottom: 0; }
 .reply{ float: right; }
-.comment-meta, .comment-meta span{ 
+.comment-meta, .comment-meta span{
     font-size: 13px;
     line-height: 24px;
 }
@@ -2058,14 +2058,14 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date{
 
 /*------------------------------------------------------------------------------*/
 /*  Contact_page
-/*------------------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------------------*/
 .conatact-section h4{ font-size: 24px; line-height: 32px; }
 
 
 /*------------------------------------------------------------------------------*/
 /*  Error_page
 /*------------------------------------------------------------------------------*/
-.error-404{ 
+.error-404{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2181,7 +2181,7 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date{
     transform: scale(0.3);
     -webkit-animation: moveclouds 17s linear infinite;
     -moz-animation: moveclouds 17s linear infinite;
-    -o-animation: moveclouds 17s linear infinite; 
+    -o-animation: moveclouds 17s linear infinite;
 }
 .z2 {
     left: 250px;
@@ -2189,7 +2189,7 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date{
     -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
     transform: scale(0.6);
-    opacity: 0.6; 
+    opacity: 0.6;
     -webkit-animation: moveclouds 25s linear infinite;
     -moz-animation: moveclouds 25s linear infinite;
     -o-animation: moveclouds 25s linear infinite;
@@ -2199,7 +2199,7 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date{
     -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
     transform: scale(0.6);
-    opacity: 0.8; 
+    opacity: 0.8;
     -webkit-animation: moveclouds 25s linear infinite;
     -moz-animation: moveclouds 25s linear infinite;
     -o-animation: moveclouds 25s linear infinite;
@@ -2220,7 +2220,7 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date{
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
     transform: scale(0.5);
-    opacity: 0.8; 
+    opacity: 0.8;
     -webkit-animation: moveclouds 20s linear infinite;
     -moz-animation: moveclouds 20s linear infinite;
     -o-animation: moveclouds 20s linear infinite;
@@ -2242,5 +2242,5 @@ article.cmt-blog-classic .cmt-box-post-date .cmt-entry-date{
 
 /*------------------------------------------------------------------------------*/
 /*  Map
-/*------------------------------------------------------------------------------*/   
-#map { display: block; height: 400px; width: 100%; }
+/*------------------------------------------------------------------------------*/
+#map { display: block; height: 350px; width: 100%; }
