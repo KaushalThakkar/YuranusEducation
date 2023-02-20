@@ -66,6 +66,7 @@
 
 .aus-bg-header {
     width: 100%;
+    height: 175px;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -74,6 +75,7 @@
 
 .can-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -82,6 +84,7 @@
 
 .uk-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -90,6 +93,7 @@
 
 .usa-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     background: url('../images/country/usa/usaHeader.jpg') center no-repeat;
     position: relative;
@@ -98,6 +102,7 @@
 
 .aboutus-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     background: url('../images/about us/About us 1920X390.jpg') center no-repeat;
     position: relative;
@@ -106,6 +111,7 @@
 
 .contactus-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     background: url('../images/contact us/Contact us 1920 X390.jpg') center no-repeat;
     position: relative;
@@ -114,6 +120,7 @@
 
 .ielts-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     background: url('../images/examination/IELTS/IELTS.jpg') center no-repeat;
     position: relative;
@@ -122,6 +129,7 @@
 
 .duolingo-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     background: url('../images/examination/DUOLINGO/DUOLINGO-1.jpg') center no-repeat;
     position: relative;
@@ -130,6 +138,7 @@
 
 .toefl-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     background: url('../images/examination/TOEFL/TOEFL.jpg') center no-repeat;
     position: relative;
@@ -138,6 +147,7 @@
 
 .pte-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     background: url('../images/examination/PTE/PTE.jpg') center no-repeat;
     position: relative;
@@ -146,6 +156,7 @@
 
 .examination-bg-header {
     width: 100%;
+    height: 300px;
     background-size: cover;
     background: url('../images/examination/examinationHeader.jpg') center no-repeat;
     position: relative;
@@ -154,6 +165,7 @@
 
 .lor-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     background: url('../images/documents/lor/LOR.jpg') center no-repeat;
     position: relative;
@@ -162,6 +174,7 @@
 
 .sop-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     background: url('../images/documents/sop/SOP.jpg') center no-repeat;
     position: relative;
@@ -170,6 +183,7 @@
 
 .loan-bg-header {
     width: 100%;
+    height:300px;
     background-size: cover;
     background: url('../images/finance/loansHeader.jpg') center no-repeat;
     position: relative;
@@ -178,8 +192,27 @@
 
 .studyAbroad-bg-header {
     width: 100%;
+    height: 300px;
     background-size: cover;
-    background: url('../images/studyAbroad.jpg') center no-repeat;
+    background: url('../images/studyAbroad/studyAbroad.jpg') center no-repeat;
     position: relative;
     z-index: 1;
+}
+
+.germany-bg-header {
+    width: 100%;
+    height:300px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    background: url('../images/country/aus/ausHeader.jpg') center no-repeat;
+}
+
+.nz-bg-header {
+    width: 100%;
+    height:300px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    background: url('../images/country/aus/ausHeader.jpg') center no-repeat;
 }
