@@ -12,8 +12,8 @@ $(document).ready(function () {
         },
     })
 
-    $("#contactSection").submit(function (e) {
-        if (!$("#contactSection").valid()) {
+    $("#addNewsForm").submit(function (e) {
+        if (!$("#addNewsForm").valid()) {
             return false;
         }
 
