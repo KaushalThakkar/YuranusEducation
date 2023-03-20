@@ -37,7 +37,7 @@ $(document).ready(function () {
             dataType: "json",
             data: JSON.stringify(jsonRequest),
             success: function () {
-                window.location.href = "viewNews.html";
+                    window.location.href = "viewNews.html";
             },
             error: function () {
                 console.log('Something Wrong.');

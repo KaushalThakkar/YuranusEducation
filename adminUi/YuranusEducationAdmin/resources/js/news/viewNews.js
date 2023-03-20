@@ -21,8 +21,8 @@ function loadNewsDetails() {
                     '<td>' + newsData[i].newsTitle + '</td>' +
                     '<td>' + newsData[i].newsDescription + '</td>' +
                     '<td>' +
-                    '<a href="editNews.html"><i class="fa fa-edit"></i></a>' +
-                    '<a href="#"><i class="fa fa-trash text-danger ml-2" onclick="deleteNews(' + newsData[i].id + ')"></i></a>' +
+                    '<a href="editNews.html" onclick="editNews(' + newsData[i].id + ')"><i class="fa fa-edit"></i></a>' +
+                    '<a href="#" onclick="deleteNews(' + newsData[i].id + ')"><i class="fa fa-trash text-danger ml-2"></i></a>' +
                     '</td>';
             }
             $("#tbody").html(newsDetailsTbody);
@@ -42,9 +42,7 @@ function deleteNews(id) {
         type: "DELETE",
         url: 'http://192.168.0.216:8088/newsInfo/delete',
         cache: false,
-        crossDomain: true,
-        dataType: "json",
-        data: JSON.stringify(jsonRequest),
+        data: jsonRequest,
         success: function (result) {
             window.location.href = "viewNews.html";
             console.log(result);
@@ -55,5 +53,5 @@ function deleteNews(id) {
     });
 }
 function editNews(id) {
-    console.log(id);
+    localStorage.setItem('editNewsId', id);
 }
