@@ -23,6 +23,8 @@
     <!-- Custom styles for this template-->
     <link href="resources/css/sb-admin-2.min.css" rel="stylesheet">
 
+    <!--For Toaster Massage-->
+    <link rel="stylesheet" type="text/css" href="resources/js/toaster/css/toaster.min.css">
 </head>
 
 <body class="bg-gradient-primary">
@@ -47,12 +49,12 @@
                                     <form class="user" id="loginForm" action="addNews.html">
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-user"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
+                                                id="userName" aria-describedby="emailHelp"
                                                 placeholder="Enter User Name" name="userName">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Enter Password" name="password">
+                                                id="userPassword" placeholder="Enter Password" name="password">
                                         </div>
                                         <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
                                     </form>
@@ -75,11 +77,14 @@
     <!-- Custom scripts for all pages-->
     <script src="resources/js/sb-admin-2.min.js"></script>
 
+    <!--For Toaster  Massage-->
+    <script src="resources/js/toaster/js/toaster.min.js"></script>
+    <script src="resources/js/toaster/js/toaster.js"></script>
+
     <!--Jquery Validation pages-->
     <script src="resources/vendor/jquery-validation/jquery.validate.min.js"></script>
 
-    <script src="resources/js/news/login.js"></script>
-
+    <script src="resources/js/login/login.js"></script>
 
 </body>
 

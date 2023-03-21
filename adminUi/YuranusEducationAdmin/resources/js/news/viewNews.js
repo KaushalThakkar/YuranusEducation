@@ -45,10 +45,9 @@ function deleteNews(id) {
         data: jsonRequest,
         success: function (result) {
             window.location.href = "viewNews.html";
-            console.log(result);
         },
-        error: function () {
-            console.log('Something Wrong.');
+        error: function (error) {
+            errorToast(error.responseJSON.message);
         }
     });
 }
